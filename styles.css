@@ -4,13 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
+  /* list-style: none; */
   font-family: "Montserrat", sans-serif;
 }
 
 body {
   background: #585c68;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 22px;
   color: #555555;
 }
@@ -32,6 +32,8 @@ body {
   display: flex;
   margin: 50px auto;
 }
+
+/* Left side of resume */
 
 .resume .resume-left {
   width: 280px;
@@ -60,8 +62,8 @@ body {
   color: #fff;
 }
 
-.resume .resume-left .regular {
-  color: #b1eaff;
+.resume .resume-right .bold {
+  color: #0bb5f4;
 }
 
 .resume .resume-item {
@@ -90,7 +92,7 @@ body {
   background: #fff;
   color: #0bb5f4;
   border-radius: 50%;
-  margin-right: 12px;
+  margin-right: 10px;
   font-size: 16px;
   position: relative;
 }
@@ -104,14 +106,68 @@ body {
 }
 
 .resume .resume-left .data {
-  color: #b1eaff;
+  /* color: #b1eaff; */
+  color: #fff;
 }
 
-.resume .resume-left .skills-title {
+.resume .resume-left .skills-title, .work-date {
   color: #b1eaff;
   font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
-.resume .resume-left .skills {
+.resume .resume-left .skills, .work {
   color: #fff;
+}
+
+.resume .resume-left .work-detail {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+/* Right side of resume */
+
+.resume .resume-right {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.resume .resume-right .resume-about {
+  text-align: center;
+}
+
+.resume .resume-right .name {
+  color: #0bb5f4;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.resume .resume-right .sub-title {
+  margin-top: 20px;
+  color: #0bb5f4;
+}
+
+.resume .resume-right .tech-exp-name {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.resume .resume-right .work-date {
+  color: #555555;
+}
+
+.resume .resume-right .tech-title:nth-child(n+3) {
+  margin-top: 20px;
+}
+
+.resume .resume-right .tech-detail {
+  padding: 2px 15px;
+}
+
+.resume .resume-right .tech-detail li {
+  margin-bottom: 3px;
+  font-size: 14px;
 }

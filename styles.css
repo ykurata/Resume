@@ -48,7 +48,7 @@ a, a:visited, a:hover, a:active {
 
 .resume .resume-left {
   width: 280px;
-  background: #0bb5f4;
+  background: #199dc2;
 }
 
 .resume .resume-left .resume-profile {
@@ -74,7 +74,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .resume .resume-right .bold {
-  color: #0bb5f4;
+  color: #199dc2;
 }
 
 .resume .resume-item {
@@ -101,7 +101,7 @@ a, a:visited, a:hover, a:active {
   width: 35px;
   height: 35px;
   background: #fff;
-  color: #0bb5f4;
+  color: #199dc2;
   border-radius: 50%;
   margin-right: 10px;
   font-size: 16px;
@@ -161,14 +161,14 @@ a, a:visited, a:hover, a:active {
 }
 
 .resume .resume-right .name {
-  color: #0bb5f4;
+  color: #199dc2;
   font-size: 50px;
   font-weight: bold;
 }
 
 .resume .resume-right .sub-title {
   margin-top: 20px;
-  color: #0bb5f4;
+  color: #199dc2;
 }
 
 .resume .resume-right .tech-exp-name {

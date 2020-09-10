@@ -52,6 +52,7 @@ a:active {
 .resume .resume-left {
   width: 280px;
   background: #199dc2;
+  padding-top: 20px;
 }
 
 .resume .resume-left .resume-profile {
@@ -202,4 +203,13 @@ a:active {
 
 .resume .resume-right .school {
   margin-top: 3px;
+}
+
+.resume .resume-right .projects {
+  padding-bottom: 10px;
+}
+
+.resume .resume-right .projects-url {
+  font-size: 13px;
+  color: #199dc2;
 }

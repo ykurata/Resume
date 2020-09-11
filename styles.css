@@ -12,8 +12,8 @@
 }
 
 body {
-  /* background: #199dc2; */
-  background: #84868a;
+  background: #199dc2;
+  /* background: #84868a; */
   font-size: 15px;
   line-height: 22px;
   color: #555555;
@@ -54,7 +54,7 @@ a:active {
 .resume .resume-left {
   width: 280px;
   background: #199dc2;
-  padding-top: 15px;
+  padding: 20px 0;
 }
 
 .resume .resume-left .resume-profile {
